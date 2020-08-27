@@ -10,6 +10,7 @@ Results:
 Parameters: 194,884
 Best Training Accuracy: 99.54%
 Best Test Accuracy: 99.11%
+
 Analysis:
 The model is very heavy (too many parameters) for this problem.
 From the graph, we can observe that the model is over-fitting.
@@ -21,6 +22,7 @@ Results:
 Parameters: 8,488
 Best Training Accuracy: 98.90%
 Best Test Accuracy: 98.57%
+
 Analysis:
 This model is good and can be modified further to improve accuracies.
 The model is not over-fitting.
@@ -32,6 +34,7 @@ Results:
 Parameters: 8,664
 Best Training Accuracy: 99.57%
 Best Test Accuracy: 99.24%
+
 Analysis:
 The model has been regularized.
 The overall accuracy of the model has increased. However, we still have not achieved the desired accuracy. Further modification is required.
@@ -44,6 +47,7 @@ Results:
 Parameters: 9,608
 Best Training Accuracy: 99.25%
 Best Test Accuracy: 99.48%
+
 Analysis:
 The model has achieved accuracies greater than 99.4% consistently towards the end.
 Less than 10k parameters were used for this model.
